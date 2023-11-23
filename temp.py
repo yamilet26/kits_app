@@ -100,7 +100,7 @@ def index():
 
 #if name == 'main':
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port=5000)
 # class FastAPIApplication(BaseApplication):
 #     def __init__(self, app, options=None):
 #         self.options = options or {}
